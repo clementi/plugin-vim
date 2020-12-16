@@ -33,7 +33,7 @@ syn keyword ballerinaNonPriType   message map exception error
 syn keyword ballerinaOperator     create
 syn match   ballerinaAnnotation	  "@\([_$a-zA-Z][_$a-zA-Z0-9]*\.\)*[_$a-zA-Z][_$a-zA-Z0-9]*\>"
 syn region  ballerinaString       start=+"+ end=+"+ end=+$+ contains=@Spell
-syn keyword ballerinaStatement    return returns reply throw break
+syn keyword ballerinaStatement    return returns reply throw break check on new
 syn keyword ballerinaScopeDecl    public
 syn match   ballerinaNumber		 "\<\(0[0-7]*\|0[xX]\x\+\|\d\+\)[lL]\=\>"
 syn match   ballerinaNumber		 "\(\<\d\+\.\d*\|\.\d\+\)\([eE][-+]\=\d\+\)\=[fFdD]\="

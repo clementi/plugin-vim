@@ -40,7 +40,7 @@ syn match   ballerinaNumber		 "\(\<\d\+\.\d*\|\.\d\+\)\([eE][-+]\=\d\+\)\=[fFdD]
 syn match   ballerinaNumber		 "\<\d\+[eE][-+]\=\d\+[fFdD]\=\>"
 syn match   ballerinaNumber		 "\<\d\+\([eE][-+]\=\d\+\)\=[fFdD]\>"
 syn match   ballerinaServiceDecl	"^service\s*\>" contains=ballerinaScopeDecl,ballerinaPriType,ballerinaNonPriType
-syn match   ballerinaFuncDef      "^function\s*\>" contains=ballerinaScopeDecl,ballerinaPriType,ballerinaNonPriType
+syn match   ballerinaFuncDef      "function\s*\>" contains=ballerinaScopeDecl,ballerinaPriType,ballerinaNonPriType
 syn match   ballerinaResDef       "resource\s*\>" contains=ballerinaScopeDecl,ballerinaPriType,ballerinaNonPriType
 syn match   ballerinaConnectorDef "^connector\s*\>" contains=ballerinaScopeDecl,ballerinaPriType,ballerinaNonPriType
 syn match   ballerinaActionDef    "action\s*\>" contains=ballerinaScopeDecl,ballerinaPriType,ballerinaNonPriType

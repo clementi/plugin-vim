@@ -29,11 +29,11 @@ syn keyword ballerinaConditional	if else try catch fork join timeout
 syn keyword ballerinaRepeat       while iterate
 syn keyword ballerinaBoolean		  true false
 syn keyword ballerinaPriType      boolean int long float double string json xml
-syn keyword ballerinaNonPriType   message map exception
+syn keyword ballerinaNonPriType   message map exception error
 syn keyword ballerinaOperator     create
 syn match   ballerinaAnnotation	  "@\([_$a-zA-Z][_$a-zA-Z0-9]*\.\)*[_$a-zA-Z][_$a-zA-Z0-9]*\>"
 syn region  ballerinaString       start=+"+ end=+"+ end=+$+ contains=@Spell
-syn keyword ballerinaStatement    return reply throw break
+syn keyword ballerinaStatement    return returns reply throw break
 syn keyword ballerinaScopeDecl    public
 syn match   ballerinaNumber		 "\<\(0[0-7]*\|0[xX]\x\+\|\d\+\)[lL]\=\>"
 syn match   ballerinaNumber		 "\(\<\d\+\.\d*\|\.\d\+\)\([eE][-+]\=\d\+\)\=[fFdD]\="
